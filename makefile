@@ -1,4 +1,4 @@
-.PHONY: init freeze
+.PHONY: init freeze serve
 
 init:
 	virtualenv venv
@@ -6,3 +6,6 @@ init:
 
 freeze:
 	venv/bin/pip freeze > requirements.txt
+
+serve:
+	venv/bin/mkdocs serve
