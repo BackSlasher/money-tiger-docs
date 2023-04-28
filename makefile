@@ -8,4 +8,4 @@ freeze:
 	venv/bin/pip freeze > requirements.txt
 
 serve:
-	venv/bin/mkdocs serve
+	venv/bin/mkdocs serve -a localhost:8001
